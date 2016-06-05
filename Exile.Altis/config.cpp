@@ -1858,6 +1858,10 @@ class CfgExileCustomCode
 
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
+	
+	/* Happys/happydayz revive scripts & antidupe */
+	ExileClient_object_player_death_startBleedingOut = "custom\EnigmaRevive\ExileClient_object_player_death_startBleedingOut.sqf"; 
+    ExileClient_object_player_event_onInventoryOpened = "custom\EnigmaRevive\ExileClient_object_player_event_onInventoryOpened.sqf";
 };
 class CfgExileEnvironment
 {
@@ -2638,6 +2642,15 @@ class CfgInteractionMenus
 				title = "Identify Body";
 				condition = "!(alive ExileClientInteractionObject)";
 				action = "_this call ExileClient_object_player_identifyBody";
+			};
+			
+			/* Custom Revive */
+
+			class Revive: ExileAbstractAction
+			{
+				title = "Perform CPR";
+				condition = "(!(alive ExileClientInteractionObject) && (ExileClientInteractionObject getVariable ['EnigmaRevivePermitted', true]) && (magazines player find 'Exile_Item_Defibrillator' >= 0))";
+				action = "_this spawn Enigma_RevivePlyr";
 			};
 		};
 	};
@@ -3452,8 +3465,6 @@ class CfgTraderCategories
 			"Exile_Item_Bandage",
 			"Exile_Item_Vishpirin",
 			"Exile_Item_Heatpack",
-
-			// Not available in 0.9.4!
 			"Exile_Item_Defibrillator"
 		};
 	};
