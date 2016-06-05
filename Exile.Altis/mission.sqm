@@ -4,6 +4,10 @@ class Mission
 	addOns[]=
 	{
 		"exile_client",
+		"Ryanzombies",
+		"ryanzombiesfunctions",
+		"Ryanzombiesanims",
+		"Ryanzombiesfaces",
 		"a3_map_altis"
 	};
 	addOnsAuto[]=
@@ -1045,7 +1049,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=9;
+		items=12;
 		class Item0
 		{
 			position[]={3874.3633,18.125629,13280.79};
@@ -1127,6 +1131,27 @@ class Mission
 			b=175;
 			drawBorder=1;
 		};
+		class Item9
+		{
+			position[]={14599.966,22.349989,16797.193};
+			name="SpawnTraderCity";
+			text="Trading Zone";
+			type="ExileSpawnZone";
+		};
+		class Item10
+		{
+			position[]={14617.251,46.803207,20777.959};
+			name="SpawnFrini";
+			text="Frini";
+			type="ExileSpawnZone";
+		};
+		class Item11
+		{
+			position[]={4596.5674,298.37622,21421.836};
+			name="SpawnOreokastro";
+			text="Oreokastro";
+			type="ExileSpawnZone";
+		};		
 	};
 };
 class Intro

@@ -1135,7 +1135,7 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Item_PlasticBottleCoffee	 		{ quality = 3; price = 40; }; //100, 60
 	class Exile_Item_PowerDrink						{ quality = 3; price = 60; }; //95, 10
-	class Exile_Item_PlasticBottleFreshWater 		{ quality = 2; price = 50; sellPrice = 4; }; //80, 15
+	class Exile_Item_PlasticBottleFreshWater 		{ quality = 2; price = 30; sellPrice = 4; }; //80, 15
 	class Exile_Item_Beer 							{ quality = 1; price = 50; }; //75, 30
 	class Exile_Item_EnergyDrink					{ quality = 1; price = 40; }; //75, 20
 	class Exile_Item_MountainDupe					{ quality = 1; price = 30; }; //50, 20
@@ -1144,12 +1144,12 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// First Aid
 	///////////////////////////////////////////////////////////////////////////////	
-	class Exile_Item_InstaDoc                       { quality = 1; price = 1250; };
+	class Exile_Item_InstaDoc                       { quality = 1; price = 125; };
 	class Exile_Item_Vishpirin						{ quality = 1; price = 300; };
 	class Exile_Item_Bandage	                    { quality = 1; price = 100; };
 	class Exile_Item_Heatpack	                    { quality = 1; price = 50; };
 
-	//class Exile_Item_Defibrillator				{ quality = 1; price = 7500; };
+	class Exile_Item_Defibrillator				    { quality = 1; price = 7500; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// Tools
@@ -1171,7 +1171,7 @@ class CfgExileArsenal
 	//class Exile_Item_Wrench						{ quality = 1; price = 250; };
 	//class Exile_Item_SleepingMat					{ quality = 1; price = 1250; };
 	//class Exile_Item_ToiletPaper					{ quality = 1; price = 5; };
-	//class Exile_Item_ZipTie						{ quality = 1; price = 250; };
+	class Exile_Item_ZipTie						    { quality = 1; price = 250; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Navigation
@@ -1464,7 +1464,7 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Bike_QuadBike_Black					{ quality = 1; price = 2500; };
 	class Exile_Bike_QuadBike_Blue					{ quality = 1; price = 2500; };
-	class Exile_Bike_QuadBike_Red					{ quality = 1; price = 2500; };
+	class Exile_Bike_QuadBike_Red					{ quality = 1; price = 2500; sellPrice = 20;};
 	class Exile_Bike_QuadBike_White					{ quality = 1; price = 2500; };
 	class Exile_Bike_QuadBike_Nato					{ quality = 1; price = 2500; };
 	class Exile_Bike_QuadBike_Csat					{ quality = 1; price = 2500; };
@@ -1511,42 +1511,42 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// UH-1H Huey
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Chopper_Huey_Green 					{ quality = 1; price = 21000; };
-	class Exile_Chopper_Huey_Desert					{ quality = 1; price = 21000; };
-	class Exile_Chopper_Huey_Armed_Green			{ quality = 1; price = 25000; };
-	class Exile_Chopper_Huey_Armed_Desert			{ quality = 1; price = 25000; };
+	class Exile_Chopper_Huey_Green 					{ quality = 1; price = 36000; };
+	class Exile_Chopper_Huey_Desert					{ quality = 1; price = 36000; };
+	class Exile_Chopper_Huey_Armed_Green			{ quality = 1; price = 40000; };
+	class Exile_Chopper_Huey_Armed_Desert			{ quality = 1; price = 40000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hellcat
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Chopper_Hellcat_Green				{ quality = 1; price = 27500; };
-	class Exile_Chopper_Hellcat_FIA					{ quality = 1; price = 27500; };
+	class Exile_Chopper_Hellcat_Green				{ quality = 1; price = 47500; };
+	class Exile_Chopper_Hellcat_FIA					{ quality = 1; price = 47500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hummingbird
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Chopper_Hummingbird_Green			{ quality = 1; price = 23000; };
+	class Exile_Chopper_Hummingbird_Green			{ quality = 1; price = 26000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hummingbird (Civillian)
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Chopper_Hummingbird_Civillian_Blue				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Red				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_ION				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_BlueLine			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Digital			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Elliptical		{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Furious			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_GrayWatcher		{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Jeans				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Light				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Shadow			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Sheriff			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Speedy			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Sunset			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Vrana				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Wasp				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Wave				{ quality = 1; price = 17000; };
+	class Exile_Chopper_Hummingbird_Civillian_Blue				{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Red				{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_ION				{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_BlueLine			{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Digital			{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Elliptical		{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Furious			{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_GrayWatcher		{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Jeans				{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Light				{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Shadow			{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Sheriff			{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Speedy			{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Sunset			{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Vrana				{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Wasp				{ quality = 1; price = 22000; };
+	class Exile_Chopper_Hummingbird_Civillian_Wave				{ quality = 1; price = 22000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Huron
@@ -1562,26 +1562,26 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// Orca
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Chopper_Orca_CSAT								{ quality = 1; price = 28000; };
-	class Exile_Chopper_Orca_Black								{ quality = 1; price = 28000; };
-	class Exile_Chopper_Orca_BlackCustom						{ quality = 1; price = 28000; };
+	class Exile_Chopper_Orca_CSAT								{ quality = 1; price = 43000; };
+	class Exile_Chopper_Orca_Black								{ quality = 1; price = 43000; };
+	class Exile_Chopper_Orca_BlackCustom						{ quality = 1; price = 43000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Taru
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Chopper_Taru_Transport_CSAT						{ quality = 1; price = 17000; };
-	class Exile_Chopper_Taru_Transport_Black					{ quality = 1; price = 17000; };
+	class Exile_Chopper_Taru_Transport_CSAT						{ quality = 1; price = 30000; };
+	class Exile_Chopper_Taru_Transport_Black					{ quality = 1; price = 30000; };
 	
-	class Exile_Chopper_Taru_CSAT								{ quality = 1; price = 33000; };
-	class Exile_Chopper_Taru_Black								{ quality = 1; price = 33000; };
+	class Exile_Chopper_Taru_CSAT								{ quality = 1; price = 38000; };
+	class Exile_Chopper_Taru_Black								{ quality = 1; price = 38000; };
 
-	class Exile_Chopper_Taru_Covered_CSAT						{ quality = 1; price = 43000; };
-	class Exile_Chopper_Taru_Covered_Black						{ quality = 1; price = 43000; };
+	class Exile_Chopper_Taru_Covered_CSAT						{ quality = 1; price = 40000; };
+	class Exile_Chopper_Taru_Covered_Black						{ quality = 1; price = 40000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Cessna
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Plane_Cessna									{ quality = 1; price = 16500; };
+	class Exile_Plane_Cessna									{ quality = 1; price = 21500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hatchback
@@ -2808,8 +2808,9 @@ class CfgInteractionModels
 class CfgPlayer 
 {
 	// In minutes ammount of time it takes to go from 100 - 0 if stationary
-	hungerDecay = 90;
-	thirstDecay = 60;
+	// standard was 90 + 60
+	hungerDecay = 270;
+	thirstDecay = 180;
 
 	// Damage taken from 0 (health||thirst)/sec
 	healthDecay = 5.0;
@@ -2838,16 +2839,16 @@ class CfgTerritories
 	prices[] = 
 	{
 		// Purchase Price 		Radius 		Number of Objects
-		{5000,					15,			30 					}, // Level 1
-		{10000,					30,			60 					}, // Level 2 
-		{15000,					45,			90 					}, // Level 3
-		{20000,					60,			120					}, // Level 4
-		{25000,					75,			150					}, // Level 5
-		{30000,					90,			180					}, // Level 6
-		{35000,					105,		210					}, // Level 7
-		{40000,					120,		240					}, // Level 8
-		{45000,					135,		270					}, // Level 9
-		{50000,					150,		300					}  // Level 10
+		{3000,					15,			45 					}, // Level 1
+		{8000,					30,			90 					}, // Level 2 
+		{12000,					45,			135 				}, // Level 3
+		{17500,					60,			180					}, // Level 4
+		{22000,					75,			205					}, // Level 5
+		{28000,					90,			220					}, // Level 6
+		{32000,					105,		240					}, // Level 7
+		{38000,					120,		260					}, // Level 8
+		{42000,					135,		280					}, // Level 9
+		{48000,					150,		320					}  // Level 10
 	};
 
 	// A shortcut of the above maximum radius
@@ -3426,9 +3427,9 @@ class CfgTraderCategories
 
 			"Binocular",
 			"Rangefinder",
-			/*"Laserdesignator",
+			"Laserdesignator",
 			"Laserdesignator_02",
-			"Laserdesignator_03",*/
+			"Laserdesignator_03",
 			"NVGoggles",
 			"NVGoggles_INDEP",
 			"NVGoggles_OPFOR",
@@ -3450,10 +3451,10 @@ class CfgTraderCategories
 			"Exile_Item_InstaDoc",
 			"Exile_Item_Bandage",
 			"Exile_Item_Vishpirin",
-			"Exile_Item_Heatpack"
+			"Exile_Item_Heatpack",
 
 			// Not available in 0.9.4!
-			//"Exile_Item_Defibrillator"
+			"Exile_Item_Defibrillator"
 		};
 	};
 

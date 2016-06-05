@@ -1,0 +1,5 @@
+///////<HEADER>///////
+prefix=Exile.Altis
+Pbo Type is: Arma Mission Addon
+Sha: '252361B305399329625BEDC987B6B039857E965E'
+//////</HEADER>//////
