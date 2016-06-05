@@ -5079,7 +5079,7 @@ class CfgSettings
 		// time in ARMA FORMAT << CONFIG
 		// https://community.bistudio.com/wiki/setDate
 
-		staticTime[] = {2039,10,24,06,30};
+		staticTime[] = {2039,10,24,14,30};
 	};
 
 
@@ -5198,7 +5198,7 @@ class CfgSettings
 				The type of box is chosen randomly from the following list.
 				Add a type multiple times to increase the chance of being used.
 			*/
-			types[] = {"Beer", "Beer", "Tools", "Food", "Food", "RepairParts", "Nades"};
+			types[] = {"Beer", "Tools", "Tools", "Tools", "Food", "RepairParts", "Nades"};
 
 			class BoxTypes
 			{
