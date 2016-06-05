@@ -1149,7 +1149,7 @@ class CfgExileArsenal
 	class Exile_Item_Bandage	                    { quality = 1; price = 100; };
 	class Exile_Item_Heatpack	                    { quality = 1; price = 50; };
 
-	class Exile_Item_Defibrillator				    { quality = 1; price = 7500; };
+	//class Exile_Item_Defibrillator				    { quality = 1; price = 7500; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// Tools
@@ -1859,9 +1859,9 @@ class CfgExileCustomCode
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
 	
-	/* Happys/happydayz revive scripts & antidupe */
+	/* Happys/happydayz revive scripts & antidupe 
 	ExileClient_object_player_death_startBleedingOut = "custom\EnigmaRevive\ExileClient_object_player_death_startBleedingOut.sqf"; 
-    ExileClient_object_player_event_onInventoryOpened = "custom\EnigmaRevive\ExileClient_object_player_event_onInventoryOpened.sqf";
+    ExileClient_object_player_event_onInventoryOpened = "custom\EnigmaRevive\ExileClient_object_player_event_onInventoryOpened.sqf";*/
 };
 class CfgExileEnvironment
 {
@@ -2645,13 +2645,13 @@ class CfgInteractionMenus
 			};
 			
 			/* Custom Revive */
-
+			/*
 			class Revive: ExileAbstractAction
 			{
 				title = "Perform CPR";
 				condition = "(!(alive ExileClientInteractionObject) && (ExileClientInteractionObject getVariable ['EnigmaRevivePermitted', true]) && (magazines player find 'Exile_Item_Defibrillator' >= 0))";
 				action = "_this spawn Enigma_RevivePlyr";
-			};
+			};*/
 		};
 	};
 };
@@ -3465,7 +3465,7 @@ class CfgTraderCategories
 			"Exile_Item_Bandage",
 			"Exile_Item_Vishpirin",
 			"Exile_Item_Heatpack",
-			"Exile_Item_Defibrillator"
+			//"Exile_Item_Defibrillator"
 		};
 	};
 
