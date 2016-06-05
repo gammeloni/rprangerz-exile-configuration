@@ -1,0 +1,15 @@
+# Standard ignores for this project
+
+# General files
+*~
+*.so
+*.dll
+*.zip
+*.rar
+*.bak
+*.bat
+*.exe
+
+# Bohemia Packed Files
+*.pbo
+*.ifa
