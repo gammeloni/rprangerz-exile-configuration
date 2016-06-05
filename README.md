@@ -12,8 +12,8 @@ We're a community of (mostly) DayZ and Arma 3 players and run servers of each of
 ## Mods used
 These are the mods currently in use on our Arma server:
 
-- Exile 0.9.61
-- Zombies and Demons 4.5 / Ryanzombies
+- Exile 0.9.6 "Pomelo"
+- Zombies and Demons 4.2 / Ryanzombies
 	- ExileZ 2 manager/spawner https://github.com/patrix87/ExileZ-2
 - Defent's Mission System / DMS : https://github.com/Defent/DMS_Exile/
 
