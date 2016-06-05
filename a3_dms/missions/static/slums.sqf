@@ -136,7 +136,7 @@ _groupReinforcementsInfo =
 			]
 		],
 		[
-			240,		// About a 4 minute delay between reinforcements.
+			600,		// About a 10 minute delay between reinforcements.
 			diag_tickTime
 		],
 		_AISoldierSpawnLocations,
