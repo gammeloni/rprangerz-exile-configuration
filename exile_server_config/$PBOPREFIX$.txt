@@ -1,0 +1,5 @@
+///////<HEADER>///////
+prefix=exile_server_config
+Pbo Type is: Arma Addon
+Sha: '710DFA3DAD29EDAB6B93255A2A9026E5C797D6D3'
+//////</HEADER>//////

@@ -4722,7 +4722,7 @@ class CfgSettings
 		class Database 
 		{
 			// Remove all territories (and contructions + containers in it) that were not paid after X days
-			territoryLifeTime = 7;
+			territoryLifeTime = 15;
 
 			// Remove all containers outside of territories that have not been used for X days
 			// Example: Tents
@@ -4733,10 +4733,10 @@ class CfgSettings
 			constructionLifeTime = 2;
 
 			// Remove all vehicles that were not moved/used for X days
-			vehicleLifeTime = 3;
+			vehicleLifeTime = 15;
 			
 			// Set safe as abandoned
-			abandonedTime = 7;
+			abandonedTime = 15;
 
 		};
 	};
@@ -4749,7 +4749,7 @@ class CfgSettings
 		/**
 		* Defines the factor of respect you gain for every pop tab in revenue
 		*
-		* Default: Get 1 respect for every 10 pop tabs 
+		* Default: Get 1 respect for every 10 pop tabs : 0.1
 		*/
 		tradingRespectFactor = 0.1;
 
@@ -4758,8 +4758,8 @@ class CfgSettings
 		*/
 		class Frags
 		{
-			bambi = -500;				// Bambi slayers
-			friendlyFire = -1000;		// For party members
+			bambi = -300;				// Bambi slayers
+			friendlyFire = -500;		// For party members
 			standard = 100;				// Normal kill
 			domination = 80;			// Keeps killing the same guy
 			letItRain = 150;			// MG, also vehicle MGs
@@ -4834,7 +4834,13 @@ class CfgSettings
 			"ItemCompass",
 			"Exile_Item_XM8",
 			"ItemRadio",
-			"Exile_Item_PlasticBottleFreshWater"
+			"ItemMap",
+			"Exile_Item_PlasticBottleFreshWater",
+			"hgun_Rook40_F", 
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"Exile_Melee_Axe",
+			"Exile_Magazine_Swing"
 		};
 
 		/**
@@ -4843,7 +4849,7 @@ class CfgSettings
 		 * 1 = On
 		 * 0 = Off
 		 */
-		parachuteSpawning = 1;
+		parachuteSpawning = 0;
 
 		/**
 		 * Enables or disables halo jumping. Only applies 
@@ -4874,7 +4880,7 @@ class CfgSettings
 		/**
 		 * Radius of spawn zones around the center of spawn zone markers.
 		 */
-		spawnZoneRadius = 500;
+		spawnZoneRadius = 200;
 
 		/**
 		 * These vehicles spawn on server restart close to spawn zones.
@@ -4886,8 +4892,9 @@ class CfgSettings
 		 */
 		spawnZoneVehicles[] =
 		{
-			{5, "Exile_Bike_OldBike"},
-			{5, "Exile_Bike_MountainBike"}
+			{4, "Exile_Bike_OldBike"},
+			{4, "Exile_Bike_MountainBike"},
+			{7, "Exile_Bike_QuadBike_Red"}
 		};
 	};
 
@@ -4902,7 +4909,7 @@ class CfgSettings
 		* smaller the number more vehicles,
 		* you get the point
 		*/
-		vehiclesGridSize = 2200;
+		vehiclesGridSize = 1800;
 
 		/**
 		* Vehicle ammount per grid
@@ -4977,7 +4984,7 @@ class CfgSettings
 		 * 0 = off
 		 * 1 = on
 		 */
-		thermalVision = 0;
+		thermalVision = 1;
 
 		/**
 		 * Set this to 1 to unlock vehicles on server boot if they are in safe zones
@@ -4985,7 +4992,7 @@ class CfgSettings
 		 * 0 = off
 		 * 1 = on
 		 */
-		unlockInSafeZonesAfterRestart = 1;	
+		unlockInSafeZonesAfterRestart = 0;	
 	};
 
 	class Weather
@@ -5072,7 +5079,7 @@ class CfgSettings
 		// time in ARMA FORMAT << CONFIG
 		// https://community.bistudio.com/wiki/setDate
 
-		staticTime[] = {2039,10,24,15,30};
+		staticTime[] = {2039,10,24,06,30};
 	};
 
 
@@ -5083,10 +5090,10 @@ class CfgSettings
 		*/
 
 		// This needs to match config.cfg serverCommandPassword
-		serverPassword = "";
+		serverPassword = "6ay88";
 
 		// Autolocks server until its ready to accept players
-		useAutoLock = 0;
+		useAutoLock = 1;
 
 		// Server will autoLock at that time before restart (minutes)
 		restartAutoLock = 3;
@@ -5099,7 +5106,7 @@ class CfgSettings
 			{4, 0} = Every 4 hours
 			{1, 30} = Every one and a half hour (who the hell would do this?)
 		*/
-		restartTimer[] = {3, 0};
+		restartTimer[] = {6, 0};
 
 		/*
 			Kicks players before restart to prevent gear loss.
@@ -5108,7 +5115,7 @@ class CfgSettings
 			0 = off
 			1 = on
 		*/
-		useAutoKick = 0;
+		useAutoKick = 1;
 
 		/*
 			Number of minutes before the server kicks players that did
@@ -5123,14 +5130,14 @@ class CfgSettings
 			0 = off
 			1 = on
 		*/
-		useRestartMessages = 0;
+		useRestartMessages = 1;
 
 		/*
 			Number of minutes before the restart to inform your players.
 
 			Only use full minutes here. Value like 5.5 have not been tested.
 		*/
-		restartWarningTime[] = {15, 10, 5, 3}; 
+		restartWarningTime[] = {15, 10, 7, 4}; 
 
 		/* 
 			If set to 1 server will execute '#shutdown',
