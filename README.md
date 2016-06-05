@@ -24,4 +24,5 @@ These are the mods currently in use on our Arma server:
 - **Facebook** https://www.facebook.com/groups/1718604761759858/
 - **Twitter** @RPRANGERZ https://twitter.com/RPRANGERZ
 - **Steam** http://steamcommunity.com/groups/RPRANGERZ
+- **Reddit** /r/RPRangerZ/
 - **Teamspeak** 85.236.100.85:10497
