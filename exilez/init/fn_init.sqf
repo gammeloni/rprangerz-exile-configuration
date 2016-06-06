@@ -20,7 +20,7 @@ RemoveZfromTerritory         = true;             // Will kill zombies when they 
 TriggerGroupScaling          = 0.25;             // 1 player = Groupsize, 2 player in trigger = Groupsize + (GroupSize * TriggerGroupScalling * number of player in the trigger) set at 0 to disable scaling
 LightsOff                    = true;             // Kill all the light on map except the player lights.
 HarassingZombieAtNightOnly   = false;             // Spawn harassing zombies at night only.
-NightStartTime               = 20;               // Time at which it is night in hours
+NightStartTime               = 19;               // Time at which it is night in hours
 NightEndTime                 = 5;                // Time at which it is no longer night in hours
 
 //Explosive zombies          
