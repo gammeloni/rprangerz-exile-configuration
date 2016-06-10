@@ -5,6 +5,8 @@
 // Taken away for now
 //#include "initServer.sqf"
 
+[] execVM "addons\statusBar\statusbar.sqf"; 
+
 if (!hasInterface || isServer) exitWith {};
 
 ///////////////////////////////////////////////////////////////////////////
