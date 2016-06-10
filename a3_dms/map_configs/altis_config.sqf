@@ -31,9 +31,9 @@ DMS_MinDistFromNorthBorder			= 5200;	// There's around 5km of ocean from the nor
 
 
 // Add the "saltflats" and "slums" mission to the existing mission types.
-// New additional missions: abandoned village, stop the mayor, slaughterhouse
-DMS_StaticMissionTypes append [["saltflats",1],["slums",1],["a_village",1],["mayor",1],["opslaughterhouse",1]];
+// New additional missions: abandoned village, stop the mayor, slaughterhouse, kastro castle
+DMS_StaticMissionTypes append [["saltflats",1],["slums",1],["a_village",1],["mayor",1],["opslaughterhouse",1],["kastro_castle",1]];
 
 // Add the "salt flats base" and "slums" to the "bases" to spawn on server startup. NOTE: "append" and "pushback" are NOT the same.
 // Same for additional missions.
-DMS_BasesToImportOnServerStart append ["saltflatsbase","slums_objects","a_village_buildings","mayor_buildings","opslaughterhouse"];
+DMS_BasesToImportOnServerStart append ["saltflatsbase","slums_objects","a_village_buildings","mayor_buildings","opslaughterhouse","kastro_castle_buildings"];
