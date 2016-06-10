@@ -32,7 +32,7 @@ disableSerialization;
 			//initialize variables and set values
 			_unit = _this select 0;
 			_damage = round ((1 - (damage player)) * 100);
-			//_damage = (round(_damage * 100));
+			_damage = (round(_damage * 100));
 			_hunger = round (ExileClientPlayerAttributes select 2);
 			_thirst = round (ExileClientPlayerAttributes select 3);
 			_bodytemp = round (ExileClientPlayerAttributes select 5);
@@ -154,10 +154,10 @@ disableSerialization;
 				<t shadow='1' shadowColor='#000000' color='%9'><img size='1.6'  shadowColor='#000000' image='addons\statusbar\icons\players.paa' color='%9'/> %2</t>
 				<t shadow='1' shadowColor='#000000' color='%14'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\health.paa' color='%9'/> %3%1</t>
 				<t shadow='1' shadowColor='#000000' color='%9'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\poptab_ca.paa' color='%9'/> %4</t>
-				<t shadow='1' shadowColor='#000000' color='%15'><img size='1.6'  shadowColor='#000000' image='addons\statusbar\icons\hunger.paa' color='%9'/> %5%1</t>
-				<t shadow='1' shadowColor='#000000' color='%16'><img size='1.6'  shadowColor='#000000' image='addons\statusbar\icons\thirst.paa' color='%9'/> %6%1</t>
-				<t shadow='1' shadowColor='#000000' color='%15'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\snowflake.paa' color='%9'/> %18%20</t>
-				<t shadow='1' shadowColor='#000000' color='%16'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\thermostat.paa' color='%9'/> %19%20</t>
+				//<t shadow='1' shadowColor='#000000' color='%15'><img size='1.6'  shadowColor='#000000' image='addons\statusbar\icons\hunger.paa' color='%9'/> %5%1</t>
+				//<t shadow='1' shadowColor='#000000' color='%16'><img size='1.6'  shadowColor='#000000' image='addons\statusbar\icons\thirst.paa' color='%9'/> %6%1</t>
+				//<t shadow='1' shadowColor='#000000' color='%15'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\snowflake.paa' color='%9'/> %18%20</t>
+				//<t shadow='1' shadowColor='#000000' color='%16'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\thermostat.paa' color='%9'/> %19%20</t>
 				<t shadow='1' shadowColor='#000000' color='%9'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\exile.paa' color='%9'/> %8</t>
 				<t shadow='1' shadowColor='#000000' color='%9'>FPS: %7</t>
 				<t shadow='1' shadowColor='#000000' color='%9'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\compass.paa' color='%9'/> %11</t>
