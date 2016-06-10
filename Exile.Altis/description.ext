@@ -82,6 +82,11 @@ allowFunctionsRecompile = 0;
 
 #include "config.cpp"
 
+class RscTitles
+{
+	#include "addons\statusBar\statusBar.hpp"
+};
+
 class CfgRemoteExec
 {
     class Functions
@@ -95,8 +100,4 @@ class CfgRemoteExec
 		mode=0;
 		jip=0;
     };
-	class RscTitles
-	{
-		#include "addons\statusBar\statusBar.hpp"
-	};
 };
