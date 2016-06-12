@@ -5008,7 +5008,7 @@ class CfgSettings
 			Add the keyframes here. The server will pick one random, so if you want one 
 			weather type of be more dominant compared to others, add it multiple times
 		*/
-		keyframes[] = {"Sunny", "Cloudy", "Thunderstorm"}; 
+		keyframes[] = {"Sunny", "Sunny", "Sunny", "Sunny", "Cloudy", "Thunderstorm"}; 
 
 		/*
 			This is a keyframe. Look up the BIKI to get more details about the parameters
