@@ -13,7 +13,9 @@ class Mission
 	addOnsAuto[]=
 	{
 		"exile_client",
-		"a3_map_altis"
+		"a3_map_altis",
+		"Ryanzombies",
+		"ryanzombiesfunctions"
 	};
 	randomSeed=8080942;
 	class Intel
