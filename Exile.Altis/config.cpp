@@ -1099,18 +1099,18 @@ class CfgExileArsenal
 	class Exile_Item_JunkMetal						{ quality = 1; price = 400; };
 	class Exile_Item_LightBulb						{ quality = 1; price = 20; };
 	class Exile_Item_MetalBoard						{ quality = 1; price = 600; };
-	//class Exile_Item_MetalHedgehogKit				{ quality = 1; price = 1200; };
+	class Exile_Item_MetalHedgehogKit				{ quality = 1; price = 1200; };
 	class Exile_Item_SafeKit						{ quality = 3; price = 10000; };
 	class Exile_Item_CodeLock						{ quality = 2; price = 5000; };
-	//class Exile_Item_Laptop						{ quality = 2; price = 9000; };
-	//class Exile_Item_BaseCameraKit				{ quality = 2; price = 5000; };
+	class Exile_Item_Laptop						    { quality = 2; price = 9000; };
+	class Exile_Item_BaseCameraKit				    { quality = 2; price = 5000; };
 	class Exile_Item_CamoTentKit					{ quality = 1; price = 250; };
 	class Exile_Item_MetalPole						{ quality = 1; price = 800; };
-	//class Exile_Item_MetalScrews					{ quality = 1; price = 100; };
-	//class Exile_Item_MetalWire						{ quality = 1; price = 100; };
-	//class Exile_Item_Cement							{ quality = 1; price = 20; };
-	//class Exile_Item_Sand							{ quality = 1; price = 20; };
-	//class Exile_Item_CarWheel						{ quality = 1; price = 1000; };
+	class Exile_Item_MetalScrews					{ quality = 1; price = 100; };
+	class Exile_Item_MetalWire						{ quality = 1; price = 100; };
+	class Exile_Item_Cement							{ quality = 1; price = 20; };
+	class Exile_Item_Sand							{ quality = 1; price = 20; };
+	class Exile_Item_CarWheel						{ quality = 1; price = 1000; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// Food
@@ -1163,16 +1163,16 @@ class CfgExileArsenal
 	class Exile_Item_Handsaw						{ quality = 1; price = 500; };
 	class Exile_Item_Pliers							{ quality = 1; price = 350; };
 	class Exile_Item_Grinder						{ quality = 1; price = 1250; };
-	//class Exile_Item_Foolbox						{ quality = 1; price = 4000; };
-	//class Exile_Item_CordlessScrewdriver			{ quality = 1; price = 750; };
-	//class Exile_Item_FireExtinguisher				{ quality = 1; price = 650; };
-	//class Exile_Item_Hammer						{ quality = 1; price = 600; };
-	//class Exile_Item_OilCanister					{ quality = 1; price = 1750; };
-	//class Exile_Item_Screwdriver					{ quality = 1; price = 250; };
-	//class Exile_Item_Shovel						{ quality = 1; price = 700; };
-	//class Exile_Item_Wrench						{ quality = 1; price = 250; };
-	//class Exile_Item_SleepingMat					{ quality = 1; price = 1250; };
-	//class Exile_Item_ToiletPaper					{ quality = 1; price = 5; };
+	class Exile_Item_Foolbox						{ quality = 1; price = 4000; };
+	class Exile_Item_CordlessScrewdriver			{ quality = 1; price = 750; };
+	class Exile_Item_FireExtinguisher				{ quality = 1; price = 650; };
+	class Exile_Item_Hammer						    { quality = 1; price = 600; };
+	class Exile_Item_OilCanister					{ quality = 1; price = 1750; };
+	class Exile_Item_Screwdriver					{ quality = 1; price = 250; };
+	class Exile_Item_Shovel						    { quality = 1; price = 700; };
+	class Exile_Item_Wrench						    { quality = 1; price = 250; };
+	class Exile_Item_SleepingMat					{ quality = 1; price = 1250; };
+	class Exile_Item_ToiletPaper					{ quality = 1; price = 5; };
 	class Exile_Item_ZipTie						    { quality = 1; price = 250; };
 
 	///////////////////////////////////////////////////////////////////////////////
@@ -3557,9 +3557,7 @@ class CfgTraderCategories
 			"Exile_Item_MetalPole",
 			"Exile_Item_SafeKit",
 			"Exile_Item_CamoTentKit",
-			"Exile_Item_CodeLock"
-			
-			/*
+			"Exile_Item_CodeLock", 
 			"Exile_Item_MetalScrews",
 			"Exile_Item_MetalWire",
 			"Exile_Item_Laptop",
@@ -3567,8 +3565,7 @@ class CfgTraderCategories
 			"Exile_Item_MetalHedgehogKit",
 			"Exile_Item_CarWheel",
 			"Exile_Item_Cement",
-			"Exile_Item_Sand"
-			*/
+			"Exile_Item_Sand"		
 		};
 	};
 
@@ -3624,8 +3621,6 @@ class CfgTraderCategories
 			"Exile_Item_Handsaw",
 			"Exile_Item_Pliers",
 			"Exile_Item_Grinder",
-			
-			/*
 			"Exile_Item_Foolbox",
 			"Exile_Item_CordlessScrewdriver",
 			"Exile_Item_FireExtinguisher",
@@ -3637,8 +3632,6 @@ class CfgTraderCategories
 			"Exile_Item_SleepingMat",	
 			"Exile_Item_ToiletPaper",			
 			"Exile_Item_ZipTie",
-			*/
-
 			"Binocular",
 			"Rangefinder",
 			"Laserdesignator",
