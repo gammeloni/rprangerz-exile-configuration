@@ -86,6 +86,7 @@ class shounka_avalanche_violet				    { quality = 1; price = 15000; };
 ///////////////////////////////////////////////////////////////////////////////
 // zombie car :P
 ///////////////////////////////////////////////////////////////////////////////
+class Mrshounka_corbillard_c		            { quality = 1; price = 16000; };
 class Mrshounka_corbillard_c_bleufonce		    { quality = 1; price = 16000; };
 class Mrshounka_corbillard_c_grise			    { quality = 1; price = 16000; };
 class Mrshounka_corbillard_c_jaune				{ quality = 1; price = 16000; };
@@ -115,7 +116,7 @@ class Mr_Own_buggy_noir				        { quality = 1; price = 19000; };
 class Mr_Own_buggy_orange				    { quality = 1; price = 19000; };
 class Mr_Own_buggy_rose				        { quality = 1; price = 19000; };
 class Mr_Own_buggy_rouge				    { quality = 1; price = 19000; };
-class Mr_Own_buggy_violet				    { quality = 1; price = 19000; };
+class Mr_Own_buggy_violet				    { quality = 1; price = 19000; sellPrice = 20;};
 
 ///////////////////////////////////////////////////////////////////////////////
 // monster trucks
@@ -177,6 +178,7 @@ class shounka_f430_spider_bleufonce				{ quality = 1; price = 35000; };
 class shounka_f430_spider_grise		            { quality = 1; price = 35000; };
 class shounka_f430_spider_jaune			        { quality = 1; price = 35000; };
 class shounka_f430_spider_noir				    { quality = 1; price = 35000; };
+class shounka_f430_spider_orange			    { quality = 1; price = 35000; };
 class shounka_f430_spider_rose				    { quality = 1; price = 35000; };
 class shounka_f430_spider_rouge			        { quality = 1; price = 35000; };
 class shounka_f430_spider_violet			    { quality = 1; price = 35000; };
@@ -199,3 +201,4 @@ class Mrshounka_lykan_c_violet			        { quality = 1; price = 36000; };
 class MV22				                        { quality = 1; price = 25000; };
 class sab_camel_blu				                { quality = 1; price = 28000; };
 class sab_camel_red				                { quality = 1; price = 28000; };
+

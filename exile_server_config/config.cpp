@@ -4927,9 +4927,10 @@ class CfgSettings
 		 */
 		spawnZoneVehicles[] =
 		{
-			{4, "Exile_Bike_OldBike"},
-			{4, "Exile_Bike_MountainBike"},
-			{7, "Exile_Bike_QuadBike_Red"}
+			{2, "Exile_Bike_OldBike"},
+			{2, "Exile_Bike_MountainBike"},
+			{4, "Exile_Bike_QuadBike_Red"},
+			{4, "Mr_Own_buggy_violet"}
 		};
 	};
 
