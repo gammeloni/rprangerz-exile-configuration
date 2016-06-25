@@ -10,6 +10,7 @@ class Mission
 		"Ryanzombiesfaces",
 		"sab_camel",
 		"mrshounka_buggy_p",
+		"mr_own_buggy",
 		"a3_map_altis"
 	};
 	addOnsAuto[]=
