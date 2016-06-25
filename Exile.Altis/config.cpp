@@ -724,6 +724,8 @@ class UpgradeToWoodWindow: Exile_AbstractCraftingRecipe
 };
 class CfgExileArsenal
 {
+	#include "HVP\ArsenalItemsHVP.hpp"
+	
 	class Exile_Uniform_BambiOverall				{ quality = 1; price = 1; sellPrice = 1; };
 
 	///////////////////////////////////////////////////////////////////////////////
@@ -2991,6 +2993,8 @@ class CfgTerritories
 };
 class CfgTraderCategories 
 {
+	#include "HVP\TraderCategoriesHVP.hpp"
+	
 	// Extended Base Mod
 	class ExtendedBaseMod
 	{
@@ -4166,7 +4170,8 @@ class CfgTraders
 		categories[] = 
 		{
 			"Cars",
-			"Trucks"
+			"Trucks",
+			"HVPCars"
 		};
 	};
 
@@ -4180,7 +4185,8 @@ class CfgTraders
 		categories[] = 
 		{
 			"Choppers", 
-			"Planes"
+			"Planes",
+			"HVPPlanes"
 		};
 	};
 

@@ -1,0 +1,11 @@
+name = "Hollow's Vehicle Pack";
+picture = "logo_1.paa";
+logo = "logo_2.paa";
+logoOver = "logo_2.paa";
+tooltip = "Hollows Addons";
+tooltipOwned = "Hollows Addons";
+overview = "Various Vehicles";
+author = "Hollow";
+overviewPicture = "logo_1.paa";
+overviewText = "Hollow's Vehicle Pack";
+overviewFootnote = "";
