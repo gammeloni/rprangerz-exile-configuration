@@ -9,7 +9,15 @@ We're a community of (mostly) DayZ and Arma 3 players and run servers of each of
 - **DayZ server** : 109.70.149.8:2500 "RPRangerZ (whitelisted) hosted by GamingDeluxe.co.uk "
 - **Arma server** : 178.239.166.81:2302 "RPRangerZ Server | Exile (0.9.6.1) | Zs (4.6) | HVP (2.1) | Extended Base Mod (0.2.3) | Ai | Missions"
 
-## Mods used
+## Mods needed to join
+- Exile
+- Zombies and Demons
+- Hollow's Vehicle Pack
+- Extended Base Mod
+Links to and infos about versions of the mods below in the server-side section.
+The server currently runs on Altis, so you don't need AiA or CUP terrains and extra maps. This could be subject to change in the future though.
+
+## Mods used server-side
 These are the mods currently in use on our Arma server:
 
 - Exile 0.9.61
