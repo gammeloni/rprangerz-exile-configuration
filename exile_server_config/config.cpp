@@ -4929,8 +4929,7 @@ class CfgSettings
 		{
 			{2, "Exile_Bike_OldBike"},
 			{2, "Exile_Bike_MountainBike"},
-			{3, "Exile_Bike_QuadBike_Red"},
-			{3, "Mr_Own_buggy_violet"}
+			{6, "Mr_Own_buggy_violet"}
 		};
 	};
 
