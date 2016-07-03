@@ -2274,6 +2274,7 @@ class CfgInteractionMenus
 {
 	//Extended Base Mod
 	#include "EBM\menus.hpp" 
+	#include "MASV\menus.hpp"
 	
 	class Car 
 	{
