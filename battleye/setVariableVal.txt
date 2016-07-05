@@ -1,2 +1,2 @@
 //new
-7 "" !="true" !="false" !="ryanzombiesinfected" !"ryanzombiesinfected"
+7 "" !="true" !="false" !="ryanzombiesinfected" !"ryanzombiesinfected" !"Exile_Unit_Player"
